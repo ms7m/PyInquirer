@@ -75,7 +75,7 @@ class InquirerControl(TokenListControl):
                         self.selected_options.append(line_value)
 
                 if pointed_at:
-                    tokens.append((T.Pointer, ' \u276f', select_item))  # ' >'
+                    tokens.append((T.Pointer, ' \u2192', select_item))  # ' >'
                 else:
                     tokens.append((T, '  ', select_item))
                 # 'o ' - FISHEYE
