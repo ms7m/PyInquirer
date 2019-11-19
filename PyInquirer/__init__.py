@@ -3,7 +3,7 @@
 from __future__ import absolute_import, print_function
 import os
 
-from prompt_toolkit.token import Token
+from prompt_toolkit.token import token as Token
 from prompt_toolkit.styles import style_from_dict
 from prompt_toolkit.validation import Validator, ValidationError
 
